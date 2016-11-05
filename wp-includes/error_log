@@ -1,0 +1,21 @@
+[05-Jun-2015 21:17:51 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/painstud/public_html/wp-includes/nav-menu-template.php on line 16
+[05-Jun-2015 21:17:58 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/author-template.php on line 471
+[05-Jun-2015 21:18:19 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/general-template.php on line 1626
+[05-Jun-2015 21:18:40 America/Denver] PHP Fatal error:  Class 'WP_Widget' not found in /home/painstud/public_html/wp-includes/default-widgets.php on line 14
+[05-Jun-2015 21:18:45 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/painstud/public_html/wp-includes/default-filters.php on line 17
+[05-Jun-2015 21:18:54 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/painstud/public_html/wp-includes/feed-rss2.php on line 8
+[05-Jun-2015 21:19:43 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-includes/functions.php on line 8
+[05-Jun-2015 21:19:43 America/Denver] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-includes/functions.php on line 8
+[05-Jun-2015 21:19:43 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-includes/functions.php on line 8
+[05-Jun-2015 21:19:48 America/Denver] PHP Fatal error:  Call to undefined function add_filter() in /home/painstud/public_html/wp-includes/shortcodes.php on line 410
+[05-Jun-2015 21:19:56 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/canonical.php on line 552
+[05-Jun-2015 21:20:02 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/theme.php on line 679
+[05-Jun-2015 21:20:06 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/kses.php on line 1428
+[05-Jun-2015 21:20:07 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home/painstud/public_html/wp-includes/vars.php on line 23
+[05-Jun-2015 21:20:08 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/painstud/public_html/wp-includes/taxonomy.php on line 129
+[05-Jun-2015 21:20:21 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-includes/script-loader.php on line 25
+[05-Jun-2015 21:20:21 America/Denver] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-includes/script-loader.php on line 25
+[05-Jun-2015 21:20:21 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-includes/script-loader.php on line 25
+[05-Jun-2015 21:20:24 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/painstud/public_html/wp-includes/rss.php on line 19
+[05-Jun-2015 21:21:26 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/painstud/public_html/wp-includes/feed-rdf.php on line 8
+[05-Jun-2015 21:21:27 America/Denver] PHP Fatal error:  Call to undefined function feed_content_type() in /home/painstud/public_html/wp-includes/feed-atom.php on line 8

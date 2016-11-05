@@ -1,0 +1,4 @@
+[06-Dec-2014 06:53:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[12-Feb-2015 04:04:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 32
+[04-Mar-2015 05:06:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/painstud/public_html/wp-content/plugins/wp-super-cache/wp-cache.php on line 2811
+[04-Mar-2015 05:06:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/painstud/public_html/wp-content/plugins/wp-super-cache/wp-cache.php on line 2813

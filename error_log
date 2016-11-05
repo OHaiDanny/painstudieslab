@@ -1,0 +1,203 @@
+[06-Dec-2014 05:41:58 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(/home/painstud/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory' in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 [internal function]: WPLessGarbagecollector->clean()
+#3 /home/painstud/public_html/wp-includes/plugin.php(580): call_user_func_array(Array, Array)
+#4 /home/painstud/public_html/wp-cron.php(103): do_action_ref_array('wp-less-garbage...', Array)
+#5 {main}
+  thrown in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php on line 47
+[06-Dec-2014 06:56:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 06:56:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 06:56:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 06:56:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 06:56:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 06:59:26 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'RecursiveDirectoryIterator::__construct(/home/painstud/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory' in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 [internal function]: WPLessGarbagecollector->clean()
+#3 /home/painstud/public_html/wp-includes/plugin.php(580): call_user_func_array(Array, Array)
+#4 /home/painstud/public_html/wp-cron.php(103): do_action_ref_array('wp-less-garbage...', Array)
+#5 {main}
+  thrown in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php on line 47
+[06-Dec-2014 07:03:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/less/lessc.inc.php on line 671
+[06-Dec-2014 07:04:07 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/themes/adamos/less/style.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:04:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/themes/adamos/less/style.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/public_html/wp-includes/script-loader.php(91 in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:04:10 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/themes/adamos/less/style.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:04:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/themes/adamos/less/style.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/public_html/wp-includes/script-loader.php(91 in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:04:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 313
+[06-Dec-2014 07:04:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 313
+[06-Dec-2014 07:06:22 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:06:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:06:26 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:06:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:07:10 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:07:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:08:42 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:08:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:13:03 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:13:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:13:18 UTC] PHP Warning:  filemtime(): stat failed for /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less in /home/painstud/public_html/wp-content/plugins/wp-less/lib/Stylesheet.class.php on line 92
+[06-Dec-2014 07:13:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find /home/painstud/public_html/wp-content/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('painLabs', false)
+#4 [internal function]: WPLessPlugin->processStylesheets()
+#5 /home/painstud/public_html/wp-includes/plugin.php(505): call_user_func_array(Array, Array)
+#6 /home/painstud/publ in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 1818
+[06-Dec-2014 07:14:43 UTC] PHP Warning:  require(/home/painstud/public_html/wp-content/themes/adamos/path/to/wp-less/bootstrap-for-theme.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:14:43 UTC] PHP Fatal error:  require(): Failed opening required '/home/painstud/public_html/wp-content/themes/adamos/path/to/wp-less/bootstrap-for-theme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:14:45 UTC] PHP Warning:  require(/home/painstud/public_html/wp-content/themes/adamos/path/to/wp-less/bootstrap-for-theme.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:14:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/painstud/public_html/wp-content/themes/adamos/path/to/wp-less/bootstrap-for-theme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:16:30 UTC] PHP Warning:  require(/home/painstud/public_html/wp-content/themes/adamos/wp-content/plugins/wp-less/bootstrap-for-theme.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:16:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/painstud/public_html/wp-content/themes/adamos/wp-content/plugins/wp-less/bootstrap-for-theme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 554
+[06-Dec-2014 07:23:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:2277
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1795): lessc_parser->parse('/* MASTER PAIN ...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1830): lessc->compile('/* MASTER PAIN ...', '/home/painstud/...')
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#4 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#5 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('I in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 2277
+[06-Dec-2014 07:23:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:2277
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1795): lessc_parser->parse('/* MASTER PAIN ...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1830): lessc->compile('/* MASTER PAIN ...', '/home/painstud/...')
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#4 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#5 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('I in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 2277
+[06-Dec-2014 07:24:50 UTC] PHP Parse error:  syntax error, unexpected ''wp_enqueue_script' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 206
+[06-Dec-2014 07:24:51 UTC] PHP Parse error:  syntax error, unexpected ''wp_enqueue_script' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 206
+[06-Dec-2014 07:28:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:2277
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1795): lessc_parser->parse('/* MASTER PAIN ...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1830): lessc->compile('/* MASTER PAIN ...', '/home/painstud/...')
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#4 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#5 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('p in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 2277
+[06-Dec-2014 07:28:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:2277
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1795): lessc_parser->parse('/* MASTER PAIN ...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1830): lessc->compile('/* MASTER PAIN ...', '/home/painstud/...')
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#4 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#5 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('p in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 2277
+[06-Dec-2014 07:30:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php:2277
+Stack trace:
+#0 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1795): lessc_parser->parse('/* MASTER PAIN ...')
+#1 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1830): lessc->compile('/* MASTER PAIN ...', '/home/painstud/...')
+#2 /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php(1902): lessc->compileFile('/home/painstud/...')
+#3 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Compiler.class.php(75): lessc->cachedCompile('/home/painstud/...', true)
+#4 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(248): WPLessCompiler->cacheStylesheet(Object(WPLessStylesheet), false)
+#5 /home/painstud/public_html/wp-content/plugins/wp-less/lib/Plugin.class.php(281): WPLessPlugin->processStylesheet('p in /home/painstud/public_html/wp-content/plugins/wp-less/vendor/leafo/lessphp/lessc.inc.php on line 2277
+[06-Dec-2014 07:31:00 UTC] PHP Warning:  require(/home/painstud/public_html/wp-content/themes/adamos/bootstrap-for-theme.php): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 524
+[06-Dec-2014 07:31:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/painstud/public_html/wp-content/themes/adamos/bootstrap-for-theme.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 524
+[10-Dec-2014 04:52:21 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:52:35 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:52:37 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:05 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:35 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:38 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:39 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:44 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:53:48 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:54:10 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:54:11 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:54:22 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[10-Dec-2014 04:54:23 UTC] PHP Warning:  hash_file(/home/painstud/public_html/wp-content/themes/adamos/less/painLabs.less): failed to open stream: No such file or directory in /home/painstud/public_html/wp-content/plugins/wp-less-compiler/Asset.php on line 38
+[12-Feb-2015 04:04:47 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 32
+[12-Feb-2015 04:04:49 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 32
+[12-Feb-2015 05:33:47 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/painstud/public_html/wp-content/themes/adamos/functions.php on line 34
+[27-Feb-2015 04:05:48 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:06:02 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:06:16 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:06:37 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:06:39 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:06:55 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:07:01 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Feb-2015 04:07:05 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-projectDetail.php on line 24
+[27-Mar-2015 01:46:02 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:04 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:05 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:22 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:25 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:29 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:35 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:37 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:37 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:37 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:38 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:38 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:40 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[27-Mar-2015 01:46:40 UTC] PHP Parse error:  syntax error, unexpected 'et_header_image' (T_STRING) in /home/painstud/public_html/wp-content/themes/adamos/header.php on line 85
+[14-Aug-2015 01:05:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:05:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:05:51 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:44 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
+[14-Aug-2015 01:06:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/painstud/public_html/wp-content/themes/adamos/page-templates/page-people.php on line 61
